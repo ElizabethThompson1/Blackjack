@@ -1,0 +1,38 @@
+body {
+  background-image: url("image/pngtree-gaming-black-gold-playing-cards-background-image_336962.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font: bolder;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  color: rgb(197, 152, 37);
+  font-size: 20vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  background-image: linear-gradient(#cdb920, #c9d03c);
+  border: 1px solid #c7cc2d;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "SF Pro Text";
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  line-height: 1.47059;
+  min-width: 30px;
+  overflow: visible;
+  padding: 4px 15px;
+}
+
+button:hover {
+  text-align: center;
+  background-image: linear-gradient(#bedc28, #a8b642);
+  border-color: #a3d732;
+  text-decoration: none;
+}
