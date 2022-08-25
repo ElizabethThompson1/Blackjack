@@ -38,12 +38,18 @@ function draw() {
 }
 
 function newCard() {
-  let card = getRandomCard();
-  sum += card;
-  cards.push(card);
-  draw();
+  if (isAlive === true && hasBlackJack === false) {
+    let card = getRandomCard();
+    sum += card;
+    cards.push(card);
+    draw();
+  }
 }
 
 function getRandomCard() {
   return Math.floor(Math.random() * 11) + 1;
+}
+
+if (hasSolvedChallenge === false && hasHintsLeft === false) {
+  shosSoution();
 }
